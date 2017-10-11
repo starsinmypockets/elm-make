@@ -45,6 +45,11 @@ It will also create a file called `elm-package.json` which gives a structured
 description of your project. `elm-make` uses this file to figure out what
 directories it needs to look in and which packages are relevant.
 
+If you want to output the compiled javascript only (for instance, if you want to load the javascript from your index.html file) you can do:
+
+```bash
+elm-make --ouput whatever.js Main.elm
+```
 
 ## More Advanced Usage
 
